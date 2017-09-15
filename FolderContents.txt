@@ -1,0 +1,7 @@
+This folder is an Aruino SketchBook folder for the ReflowSolderController plus associated library and hardware design files.
+
+To open the build environment in the Arduino IDE under Preferences set the Sketchbook location to this top folder.
+Then under File/Sketchbook open the sketch RefllowController.ino -- This should be the only sketch available.
+
+Note that all the libraries for the project are local to this sketchbook making it so that the correct 
+revision is always linked with the sketch. 

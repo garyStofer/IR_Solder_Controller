@@ -1,0 +1,7 @@
+The controller is based on the AIR_LCD PCB (ATMEGA 328) connected to a graphical ST7735 based 128x160 tft LCD.
+
+The layout files are found on at https://github.com/garyStofer/AIR_LCDuino  under hardware. 
+
+Eagle Cad is used to open the schematic and board files.
+
+The controller schematic is duplicated here to provide a hookup diagram for the controller, LCD, termocouple and Triac. 
