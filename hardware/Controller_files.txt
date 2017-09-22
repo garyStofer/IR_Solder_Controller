@@ -1,7 +1,6 @@
 The controller is based on the AIR_LCD PCB (ATMEGA 328) connected to a graphical ST7735 based 128x160 tft LCD.
 
-The layout files are found on at https://github.com/garyStofer/AIR_LCDuino  under hardware. 
+The Eagle CAD schematic and layout files for the main controller baoard are found on at https://github.com/garyStofer/AIR_LCDuino  under hardware. 
 
-Eagle Cad is used to open the schematic and board files.
-
-The controller schematic is duplicated here to provide a hookup diagram for the controller, LCD, termocouple and Triac. 
+The controller schematic is duplicated here to provide a hookup diagram for the controller, LCD, termocouple and Triac board.
+The triac and zero crossing detection PCB are documented in this project in the ReflowHeaterTriac folder.

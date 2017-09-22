@@ -1,5 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
+#define VERSION "GS.1.0"
 
 //#define ALWAYS_FIRST_RUN
 //#define WITH_SERVO // Enables Lid opening Servo (not yet implemented)

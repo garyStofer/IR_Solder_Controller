@@ -81,20 +81,20 @@ void setupTFT() {
 void displaySplash() 
 {
   tft.fillScreen(ST7735_WHITE);
-       
-  tft.setTextColor(ST7735_BLACK);
-  // splash screen
+  tft.setTextColor(ST7735_BLUE);
+  tft.setTextSize(2);	// 12pt font
   tft.setCursor(2, 30);
-  tft.setTextSize(2);
+  tft.print("Solder");
+  tft.setCursor(20, 48);
   tft.print("Reflow");
-  tft.setCursor(tft.width()-120, 48);
+  tft.setCursor(tft.width()-120, 66);
   tft.print("Controller");
   tft.setTextSize(1);
-  tft.setCursor(10, 67);
+    tft.setTextColor(ST7735_BLACK);
+  tft.setCursor(10, 110);
+  tft.print("ver:"); tft.print(VERSION);
+  tft.print(", ");
   tft.print(__DATE__);
-  tft.setCursor(52, 67);
-  tft.print("v"); tft.print(ver);
-  
   delay(1000);
 }
 

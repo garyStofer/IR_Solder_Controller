@@ -3,9 +3,6 @@
 
 #include "config.h"
 
-static const char * ver = "x.y.0";
-
-
 uint8_t LineFreq = 0;				// measured line frequwency in HZ
 #define ZX_TICKS_PER_SEC  (LineFreq*2)
 #define ZX_TICKS_PER_UPDATE 50 // 30 is 250ms at 60hz line, that is the max speed the TC-chip can read
